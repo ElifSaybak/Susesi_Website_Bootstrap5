@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BS Style -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!--  Include The Html Page-->
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+
+    <title>Susesi</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section id="nav-bar" w3-include-html="pages/navbar.html"></section>
+
+    <!-- Mini Navbar-->
+    <section
+      id="mini-navbar"
+      w3-include-html="pages/mini_navbar.html"
+    ></section>
+
+    <!-- Slider Section-->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+      w3-include-html="pages/slider.html"
+    ></div>
+
+    <!-- OUR-ROOMS  -->
+    <section id="our-rooms" w3-include-html="pages/our_rooms.html"></section>
+
+    <!-- Main Building-->
+    <section
+      id="main-building"
+      w3-include-html="pages/main_building.html"
+    ></section>
+
+    <!-- Terrace Houses -->
+    <section
+      id="terrace-houses"
+      w3-include-html="pages/terrace_houses.html"
+    ></section>
+
+    <!-- HQ Luxury -->
+    <section id="hq-luxury" w3-include-html="pages/hq_luxury.html"></section>
+
+    <!-- All Inclusive IMG -->
+    <section id="all-inclusive">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <img src="images/all_inclusive.png" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Media-->
+    <section id="social-media">
+      <div class="container text-center">
+        <h1 class="title text-center">Reach Us Everywhere</h1>
+        <div class="col-md-12 my-5">
+          <img src="images/social-media.png" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Comment -->
+    <section id="comment">
+      <div class="container">
+        <p class="comment">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita
+          tenetur officiis molestias adipisci. Perspiciatis temporibus dicta
+          officiis maxime iusto, labore, hic tenetur, est autem laboriosam ullam
+          nostrum quam mollitia rerum.
+        </p>
+        <p class="mini-title text-center">thank you for your reviews</p>
+        <img src="images/thankyou.png" />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer" w3-include-html="pages/footer.html"></section>
+
+    <!-- BS JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      w3IncludeHTML();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,170 @@
+body {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 60px;
+  font-family: "Allura", cursive;
+}
+
+.mini-title {
+  font-size: 40px;
+  font-weight: 300;
+  color: #45c3d2;
+}
+
+/********************* Navbar **********************/
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #fff;
+}
+
+.navbar-brand img {
+  padding-left: 10vh;
+}
+
+.navbar-nav li {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.navbar-nav li a {
+  color: rgb(82, 82, 82) !important;
+  float: right;
+  text-align: left;
+}
+
+/**** Mini Navbar ****/
+
+#mini-navbar {
+  background-image: linear-gradient(135deg, #38a7b3 55%, #2132ba);
+}
+
+#mini-navbar .navbar {
+  padding: 0 !important;
+}
+
+#mini-navbar li a {
+  color: #fff !important;
+  float: right;
+  text-align: left;
+  font-size: 14px;
+}
+
+#mini-navbar .reservation {
+  font-size: 18px;
+}
+
+/************************ Our Rooms ***********************/
+
+#our-rooms,
+#main-building,
+#terrace-houses,
+#social-media {
+  background: #fff;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.our-room-detail {
+  color: #c1c1c1;
+}
+
+/****************** Main Building *******************/
+
+.room-name {
+  font-size: 20px;
+  color: grey;
+}
+
+.room-detail {
+  font-size: 14px;
+  color: grey;
+  text-align: center;
+}
+
+/****************** HQ Luxury **********************/
+
+.hq-luxury {
+  width: 250px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+/****************** Reach us EveryWhere ***************/
+
+.comment {
+  text-align: center;
+  color: grey;
+  font-size: 20px;
+}
+
+/******************** Footer ************************/
+
+#footer {
+  color: grey;
+  background: #fff;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.footer-box img {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-box .form-control {
+  border: 1px solid #45c3d2;
+  border-radius: 10px;
+}
+
+.input-title {
+  padding-left: 18vh;
+}
+
+.search {
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, 0.102);
+}
+
+.search input {
+  height: 40px;
+  border: 2px solid #45c3d2;
+}
+
+.search input:focus {
+  box-shadow: none;
+  border: 2px solid #45c3d2;
+}
+
+.search input::placeholder {
+  color: #c5c5c5;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.search button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40px;
+  width: 50px;
+  background-color: #45c3d2;
+  border-radius: 10px;
+  border: 1px solid #45c3d2;
+}
+
+.search i {
+  color: #fff;
+}
