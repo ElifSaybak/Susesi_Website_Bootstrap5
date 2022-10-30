@@ -1,4 +1,4 @@
-# Susesi Website Bootstrap5
+# Susesi Website Bootstrap 5
 **Su Sesi Hotel website with Bootstrap 5**
 <br/>
 > Html, Css, Bootstrap 5
